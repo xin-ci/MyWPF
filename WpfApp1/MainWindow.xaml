@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition  />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <TextBlock Text="编号" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
+        <TextBox Text="{Binding Student.ID}" Grid.Column="1" HorizontalAlignment="Left" />
+        <TextBlock Text="姓名" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
+        <TextBox Text="{Binding Student.Name}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="130" Height="35" Margin="10" VerticalContentAlignment="Center"></TextBox>
+        <Button Content="保存" Command="{Binding SaveCommand}"  Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="30" Width="120"></Button>
     </Grid>
+    
 </Window>
