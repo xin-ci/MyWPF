@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Data;
 using System.Windows;
 using WpfLibrary1;
+using WpfViewModel;
 
 
 
@@ -24,6 +25,8 @@ namespace WpfApp1
             var services = new ServiceCollection();
      
             services.AddSingleton<WpfVModel>();
+            services.AddSingleton<LoginViewModel>();
+            //services.AddSingleton<StuVModel>();
             return services.BuildServiceProvider();
         }
     }

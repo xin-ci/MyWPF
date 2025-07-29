@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfViewModel", "WpfLibrary1\WpfViewModel.csproj", "{F7845DB2-E9F5-417E-B7E9-7B0A60168E2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4B09E07E-5C3E-4E90-9661-F1A020E56339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,10 @@ Global
 		{F7845DB2-E9F5-417E-B7E9-7B0A60168E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7845DB2-E9F5-417E-B7E9-7B0A60168E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7845DB2-E9F5-417E-B7E9-7B0A60168E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B09E07E-5C3E-4E90-9661-F1A020E56339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B09E07E-5C3E-4E90-9661-F1A020E56339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B09E07E-5C3E-4E90-9661-F1A020E56339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B09E07E-5C3E-4E90-9661-F1A020E56339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

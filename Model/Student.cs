@@ -1,19 +1,24 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel; 
+﻿
 namespace Model
 {
-    public class Student:ObservableObject
+    /// <summary>
+    /// 学生类
+    /// </summary>
+    public class Student
     {
-        private int id;
-        public  int Id
-        {
-            get => id;
-            set => SetProperty(ref id, value);
-        }
-        private string name;
-        public string Name
-        {
-            get => name;
-            set => SetProperty(ref name, value);
-        }
+        public int Id { get; set; }
+        /// <summary>
+        /// 学生姓名    
+        /// </summary>
+        public string Name { get; set; }
+        /// <summary>
+        /// 年龄    
+        /// </summary>
+        public int Age { get; set; }
+        /// <summary>
+        /// 班级    
+        /// </summary>
+        public string Classes { get; set; }
+
     }
 }
